@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Purchased from "../views/Purchased.vue";
+import Cancelled from "../views/Cancelled.vue";
 
 Vue.use(VueRouter);
 
@@ -13,8 +14,13 @@ const routes = [
   },
   {
     path: "/purchased",
-    name: "purchased",
+    name: "Purchased",
     component: Purchased
+  },
+  {
+    path: "/cancelled",
+    name: "Cancelled",
+    component: Cancelled
   },
   {
     path: "/about",
