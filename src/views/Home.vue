@@ -6,10 +6,6 @@
     <img alt="Vue logo" src="../assets/logo.png" />
 
     <div>
-      <button onclick='console.log("haha")'>Basic plan</button>
-      <button id="payment2">Intermediate plan</button>
-      <button onclick="payment3()">One-time token purchase</button>
-
       <button
         style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
         id="checkout-button-plan_HED8EQd8RL0AN3"
@@ -24,6 +20,14 @@
         role="link"
       >
         Gold Member
+      </button>
+
+      <button
+        style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+        id="checkout-button-sku_HEW2W2BNinxyYk"
+        role="link"
+      >
+        One-Time-Purchase (5 POINTS)
       </button>
 
       <div id="error-message"></div>
