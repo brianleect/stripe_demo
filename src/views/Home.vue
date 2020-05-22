@@ -1,6 +1,3 @@
-#Checkout button does not work, consider importing stripe??? what is the issue?
-#ID not recognised? or stripe commands are not functioning
-
 <template>
   <div class="home">
     <div>
@@ -32,10 +29,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: "Home",
-  components: {}
-};
-</script>

@@ -2,10 +2,16 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Purchased from "../views/Purchased.vue";
 import Cancelled from "../views/Cancelled.vue";
+import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home
+  },
   {
     path: "/purchased",
     name: "Purchased",
